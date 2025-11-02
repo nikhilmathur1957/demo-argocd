@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-demo-Nikhil
-  namespace: demo
+  name: nginx-demo
+  namespace: demo-Nik
 spec:
   replicas: 2
   selector:
